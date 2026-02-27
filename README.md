@@ -11,3 +11,4 @@ This international app blends time, travel, and taste into one immersive experie
     Seasonal Sports Explorer: Discover sports tied to seasons across different cities—become a time-traveling sports enthusiast.
 
     Holographic Companions: Journey with a hologram of your favorite singer as your travel buddy.
+Musical piece cities trail : CHoisis un compositeur de musique /companion pour ton voyage et ton instrument de musique favori : joue une pièce dans chaque ville où tu tes deplace.
