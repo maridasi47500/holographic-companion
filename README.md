@@ -12,3 +12,6 @@ This international app blends time, travel, and taste into one immersive experie
 
     Holographic Companions: Journey with a hologram of your favorite singer as your travel buddy.
 Musical piece cities trail : CHoisis un compositeur de musique /companion pour ton voyage et ton instrument de musique favori : joue une pièce dans chaque ville où tu tes deplace.
+- voyage de ville en ville quand tu pratiques un sport de saison ou de la musique en toutes saisons.
+- voyage dans la partie de la ville qui a un cote plus vintage si cest le voyage du temps et le voyage music de ville en ville
+- 
