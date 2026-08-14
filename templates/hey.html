@@ -1,8 +1,17 @@
-<p>hello and welcome to Time-Hopping Travel & Cafe Experience App</p>
-<p>
-choisis un compositeur ou plusieurs pieces de musiques, et es tu prete de traverses les villes de  saison  en saison?
-</p>
-<p>choicis ton instrument et joue une piece dans chaque ville</p>
-<p>liste les cafes ou tu vas aller : ici</p>
-<p>plus bas liste les boissons que tu vas boire dans les cafes : ici</p>
-<p>quel est le sport que tu pourrais faire dans cette ville : liste ici</p>
+{% extends 'base.html' %}
+
+{% block montitre %}
+debut de mes mots: bienvenue dans holographic companion
+{% endblock %}
+{% block content %}
+<h1># holographic-companion</h1>
+{% for x in users | reverse %}
+ <li>{{ x["first_name"]  }}</li>
+
+{% endfor %} 
+fin de mes mots : parcours des villes de saison en saison pour faire du sport, et joue de la musique ou visite le centre commercial de ton quartier
+{% endblock %}
+{% block liens %}
+<a href="/">welcome</a>
+{% endblock %}
+<a href="/add_one_user"> add one user</a><a href="/add_one_city"> add one city</a><a href="/add_one_cafe_bar"> add one cafe_bar</a><a href="/add_one_cafe_drinks"> add one cafe_drinks</a><a href="/add_one_musicgenre"> add one musicgenre</a><a href="/add_one_celeb"> add one celeb</a><a href="/add_one_sport"> add one sport</a><a href="/add_one_sportpracticed"> add one sportpracticed</a><a href="/add_one_userwaypoints"> add one userwaypoints</a><a href="/add_one_userhasholographiccompanion"> add one userhasholographiccompanion</a><a href="/add_one_street"> add one street</a><a href="/add_one_flat"> add one flat</a><a href="/add_one_flathasuser"> add one flathasuser</a><a href="/add_one_flathasmusicgenre"> add one flathasmusicgenre</a><a href="/add_one_musicalinstrument"> add one musicalinstrument</a><a href="/add_one_userplaysinstrument"> add one userplaysinstrument</a><a href="/add_one_flathasshopsnearby"> add one flathasshopsnearby</a>
